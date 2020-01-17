@@ -6,13 +6,13 @@ We can have as many repositories as the no. of projects.
 
 A repo contains .git folder which tells the git that this folder is needed to be tracked.
 
-If the repo contains subfolder,then the files within the subfolders will also be tracked.
+If the repo contains subfolder, then the files within the subfolders will also be tracked.
 
 If the shift the position of the .git folder the git tracks the folder which as .git as its
 direct child.
 
 ######### Commit ####################
-A commit is like a savepoint in a game.
+A commit is like a save point in a game.
 
 We can rollback to any of the previous commits thus we can track our progress.
 
@@ -29,4 +29,17 @@ Then we do git init which then initializes the folder as an empty repository.
 
 ####### Staging Files ###########
 
-Any modified file goes to the STAGING area.
+Any modified file goes to the MODIFIED area.
+
+Any file can then be added to the STAGING area by using git add "filename"
+
+Then we can check the status of the STAGING area using git status command which
+for our convenience also displays the command for adding files and removing them from
+the STAGING area.
+
+####### Making Commits ##############
+
+We can use the command git commit -m "the commit message" to commit the changes.
+
+The output of the command includes the commit id, the number of insertions, no of
+files changed.

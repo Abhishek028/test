@@ -50,5 +50,13 @@ git checkout "commit id"
 git revert "commit id"
 
 
-#####################################
-#####################################
+######### Branches #################
+git branch "branch name"
+
+git branch -a
+
+git checkout "branch name"
+
+git checkout -b "branch name"
+
+git branch -D "branch name"

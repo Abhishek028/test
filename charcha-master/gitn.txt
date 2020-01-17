@@ -1,0 +1,32 @@
+
+######### Repository ################
+A repo or a repository is a folder which is tracked by the git for changes.
+
+We can have as many repositories as the no. of projects.
+
+A repo contains .git folder which tells the git that this folder is needed to be tracked.
+
+If the repo contains subfolder,then the files within the subfolders will also be tracked.
+
+If the shift the position of the .git folder the git tracks the folder which as .git as its
+direct child.
+
+######### Commit ####################
+A commit is like a savepoint in a game.
+
+We can rollback to any of the previous commits thus we can track our progress.
+
+files can be MODIFIED but can remain un committed.
+
+We need to add the changed files to the STAGING area.
+
+When we commit, any files in the STAGING area are also added to the commit.
+
+######## Creating a Repository #########
+We just navigate to the folder which we want as our repository.
+
+Then we do git init which then initializes the folder as an empty repository.
+
+####### Staging Files ###########
+
+Any modified file goes to the STAGING area.

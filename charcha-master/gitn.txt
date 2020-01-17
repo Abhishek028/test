@@ -44,4 +44,7 @@ We can use the command git commit -m "the commit message" to commit the changes.
 The output of the command includes the commit id, the number of insertions, no of
 files changed.
 
-###
+######## Undoing Things #############
+
+git checkout "commit id"
+git revert "commit id"
